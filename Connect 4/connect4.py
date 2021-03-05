@@ -5,10 +5,10 @@ def current():
     print(str(board[0]) + "\n" + str(board[1]) + "\n" + str(board[2]) + "\n" + str(board[3]) + "\n" + str(board[4]) + "\n" + str(board[5]))
 
 def turn(user):
-    col = int(input("What column would you like to place your piece in? (1-6) "))-1
+    col = int(input("What column would you like to place your piece in? (1-7) "))-1
 
     while col > 6 or col < 0 or board[0][col] != 0:
-        col = int(input("Please choose an available slot (1-6) "))-1
+        col = int(input("Please choose an available slot (1-7) "))-1
 
     for i in range(6):
         if board[5-i][col] == 0:
