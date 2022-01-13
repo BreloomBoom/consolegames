@@ -10,3 +10,6 @@ You can play Connect 4 with someone else
 
 Tic Tac Toe:
 You can play with someone else, a bot that randomly plays or a bot that has a depth of 1
+
+Wordle:
+You can play with a prechosen word
